@@ -1,0 +1,64 @@
+.about_Us{
+    width: 100%;
+    height: 100%;
+  background-image: url(../../assets/about-bg.jpg);
+  background-size: cover;
+    object-fit: cover;
+}
+.dcr{
+   padding: 160px 100px;
+   width: 50%;
+}
+.dcr h2{
+    font-size: 2rem;
+    color: var(--color-text-des-h1);
+}
+.dcr p  {
+color: var(--color-text-1);
+font-weight: 100;
+}
+.p1{
+    padding: 30px 0 15px 0 ;
+}
+
+.dr_dacr{
+    display: flex;
+    margin-top: 30px;
+}
+.dr_dacr img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+@media screen and (max-width: 999px){
+    .about_Us{
+        width: 100%;
+        height: 85vh; 
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+         background-repeat: no-repeat;
+    }
+    .dcr{
+        padding: 0 30px;
+        padding-top: 250px;
+        width: 60%;
+     }
+    
+}
+@media screen and (max-width: 576px){
+    .dcr h2{
+        font-size: 0.8rem;
+        
+    }
+    .dcr{
+        padding: 0 20px;
+        padding-top: 150px;
+        width: 90%;
+     }
+     .p1{
+        padding: 20px 0 10px 0 ;
+    }
+}
+

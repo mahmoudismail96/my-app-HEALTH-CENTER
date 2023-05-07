@@ -1,0 +1,124 @@
+
+.news{
+    width: 100%;
+    height: 100vh;
+     margin-top: 20rem;
+     padding: 1rem 4rem 0 4rem;
+     background-color: #f9f9f9;
+}
+.news_header{
+margin-bottom: 2rem;
+}
+.news_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.news_card{
+    background-color: var(--color-text);
+    width: 31%;
+}
+.img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.textDr{
+    padding: 0 1.5rem;
+}
+.textDr h2{
+   margin: 10px 0;
+   transition: 1s ease-in-out;
+}
+.textDr p{
+    color: var(--color-text-1);
+ }
+ .Dr_dec{
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+
+ .img_Dr img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.textDr:hover h2{
+    color: var(--color-icon-and-background);
+}
+@media screen and (max-width: 999px){
+    .news{
+         margin-top: 150rem;
+         padding: 1rem ;
+         background-color: #f9f9f9;
+    }
+    .news_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: 1 1fr;
+       
+    }
+    .news_card{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .img img{
+        width: 100%;
+        height: 500px;
+        border-radius: 10px 10px 0 0;
+    }
+}
+@media screen and (max-width: 576px){
+    .news{
+        height: 100%;
+        margin-top: 98rem;
+   }
+   .img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.news_card{
+    margin-bottom: 2rem;
+}
+}
+@media screen and (max-width: 415px) {
+    .news{
+        margin-top: 95rem;
+   }
+}@media screen and (width: 280px) {
+    .news{
+        margin-top: 105rem;
+   }
+}
+@media screen and (width: 360px) {
+    .news{
+        margin-top: 92rem;
+   }
+}
+/*@media screen and (max-width: 576px){
+    .img img{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+    .news{
+        height: 100%;
+        margin-top: 20rem;
+   }
+   .news_card{
+    margin-bottom: 2rem;
+}
+}
+@media screen and (max-width: 415px) {
+    .news{
+        margin-top: 85rem;
+   }
+}*/

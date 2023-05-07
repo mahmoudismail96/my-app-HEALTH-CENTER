@@ -1,0 +1,133 @@
+.contact{
+    margin: 3rem 4rem;
+}
+.contact_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.contact_img{
+    width: 50%;
+}
+
+.contact_img img{
+    width: 600px;
+    height: 630px;
+}
+.conatc_form{
+    width: 50%;
+}
+.conatc_form h2{
+    font-size: 3rem;
+}
+.name_email_wrapper , .Select_wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+}
+.name, .email, .select_date, .select_department{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.name input ,.email input,.select_date input ,.select_department select, .Phone input{
+     padding: 1rem ;
+}
+.Phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:  0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:  0 2rem;
+}
+.submit {
+    padding:  0 2rem;
+    margin-top: 1rem;
+}
+.submit button {
+    background-color: var(--color-icon-and-background);
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+}
+.submit button:hover {
+    background-color:  rgba(165, 196, 34, 0.9);
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 999px){
+    #contact{
+        margin: 76rem  0 0 0;
+    }
+    .contact{
+        margin: 3rem 2rem;
+    }
+    .contact_wrapper{
+       flex-direction: column;
+    }
+    .contact_img img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .conatc_form h2{
+        font-size: 1.5rem;
+    }
+    .name_email_wrapper , .Select_wrapper{
+        flex-direction: column;
+    }
+    .contact_img{
+        width: 100%;
+    }
+    
+    .conatc_form{
+        width: 100%;
+    }
+    .Phone {
+       
+        padding:  0 ;
+        margin-bottom: 1.5rem;
+    }
+    
+    .message{
+       
+        padding:  0 ;
+    }
+    .submit {
+        padding:  0 ;
+        
+    }
+    .name,.select_date {
+        padding-bottom: 2rem;
+    }
+    
+}
+.name, .email, .select_date, .select_department{
+    width: 100%;
+}
+@media screen and (max-width: 415px){
+    #contact{
+        margin: 1rem  1rem 0 1rem;
+    }
+}
+@media screen and (max-width: 280px){
+    #contact{
+        margin: 1rem  0 0 0;
+    }
+    .contact{
+        margin: 3rem 1rem;
+    }
+}

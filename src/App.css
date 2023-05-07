@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+:root {
+  --color-text-1: #757575;
+  --color-secondary-text: #747474;
+  --color-text-nav: #555555;
+  --color-text: #ffffff;
+  --color-text-des-h1: #272727;
+  --color-text-neam-dr: #333333;
+  --color-icon-and-background: #a5c422;
+}
+input, select, textarea{
+  background-color: #f9f9f9;
+  border: none;
+}
